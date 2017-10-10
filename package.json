@@ -1,0 +1,36 @@
+{
+  "name": "narf",
+  "version": "0.0.1",
+  "description": "Make Decisions with friends!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamielockie/narf.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "Dana Manoli and Jamie Lcokie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamielockie/narf/issues"
+  },
+  "homepage": "https://github.com/jamielockie/narf/#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "eslint": "^4.8.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0-alpha.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0"
+  }
+}
