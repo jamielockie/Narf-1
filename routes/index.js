@@ -1,7 +1,7 @@
 const express = require ('express');
-const Narf = requre('../models/narf');
-
+const Narf = require('../models/narf');
 const router = express.Router();
+
 
 router.route('/narfs')
 	.get((req,res) => {

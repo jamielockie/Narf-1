@@ -4,7 +4,7 @@ const Narf = require('./models/narf.js');
 const app = express();
 const router = express.Router();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/narf')
+mongoose.connect('mongodb://localhost/narf');
 
 
 app.use(express.static('public'));
